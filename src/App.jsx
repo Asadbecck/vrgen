@@ -1,6 +1,8 @@
 import styles from './style'
 import { Header, Navbar } from './components'
 import Business from './components/Business'
+import { Header, Navbar, Stats, Video } from './components'
+
 
 export default function App() {
   return (
@@ -23,6 +25,8 @@ export default function App() {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
             <Business />
+            <Stats/>
+            <Video/>
         </div>
       </div>
 
