@@ -23,7 +23,8 @@ export const navLinks = [
     title: "Clients",
     border:2,
 
-  },
+  }
+ 
 ];
 
 export const features = [
@@ -202,3 +203,18 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+
+
+export const Transale = [
+  {
+      text: "text.translate1",
+      value: "eng"
+  }, {
+      text: "text.translate2",
+      value: "uz"
+  }, {
+      text: "text.translate3",
+      value: "rus"
+  }
+]
