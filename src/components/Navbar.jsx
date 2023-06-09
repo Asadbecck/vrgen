@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-fully flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="vrgen" className="w-[130px] h-[80px]" />
+      <img src={logo} alt="vrgen" className="w-[130px] h-[100px]" />
 
       <div className="flex flex-row-reverse space-x-4 space-x-reverse gap-7">
 
@@ -33,7 +33,7 @@ const Navbar = () => {
       </div>
       {/*                 Phone Format                 */}
 
-      <div onClick={handleNav} className='block md:hidden'>
+      <div onClick={()=>handleNav()} className='block md:hidden'>
         {
           !values ? <img src={close} className="w-[20px]" alt="" /> : <img src={menu} className="w-[30px]" alt="" />
         }
