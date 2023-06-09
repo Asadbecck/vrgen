@@ -1,7 +1,5 @@
 import styles from './style'
 import { Header, Navbar, Stats, Video } from './components'
-
-import { Header, Navbar } from './components'
 import EsiesCantrol from './components/EsiesCantrol'
 
 export default function App() {
