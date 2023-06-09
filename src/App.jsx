@@ -1,6 +1,8 @@
 import styles from './style'
 import { Header, Navbar, Stats, Video } from './components'
 
+import { Header, Navbar } from './components'
+import EsiesCantrol from './components/EsiesCantrol'
 
 export default function App() {
   return (
@@ -18,15 +20,13 @@ export default function App() {
         </div>
       </div>
 
-
-      
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
             <Stats/>
             <Video/>
+            <EsiesCantrol/>
         </div>
       </div>
-
     </div>
   )
 }
