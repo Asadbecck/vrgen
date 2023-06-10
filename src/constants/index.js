@@ -51,31 +51,48 @@ export const features = [
   },
 ];
 
-export const feedback = [
+export const  Events = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
+      "Winner of a demo day held jointly by MDIST and IT PARK",
+    name: "Alisher Alisherov",
     title: "Founder & Leader",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
+      "Aloqa ventures acceleration finalist",
+    name: "Steve Mask",
     title: "Founder & Leader",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
+      "Member of the European Innovation Academy, in collaboration with Berkley University, USMAC and USAID.",
+    name: "Kenn Makalen",
     title: "Founder & Leader",
     img: people03,
   },
+  {
+    id: "feedback-4",
+    content:
+      "Member of the European Innovation with Berkley University, USMAC and USAID.",
+    name: "Kenn Makalen",
+    title: "Founder & Leader",
+    img: "https://hips.hearstapps.com/hmg-prod/images/apple-ceo-steve-jobs-speaks-during-an-apple-special-event-news-photo-1683661736.jpg?crop=0.800xw:0.563xh;0.0657xw,0.0147xh&resize=1200:*",
+  },
+  {
+    id: "feedback-5",
+    content:
+      "Member of the European Innovation with Berkley University, USMAC and USAID.",
+    name: "Kenn Makalen",
+    title: "Founder & Leader",
+    img: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg",
+  },
+  
 ];
 
 export const stats = [
