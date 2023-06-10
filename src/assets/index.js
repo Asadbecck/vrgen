@@ -30,11 +30,16 @@ import glassFour from './glassFour.png'
 import backFoneOne from './backFon (1).png'
 import backFoneTwo from './backFon (2).png'
 import videoBg from './main_5-2 (1).mp4'
+import agirl from './agirl.png'
+import wallpare from './@OboiPC (2).jpg'
+import manVr from './video_image-pz30M4h4P.png'
 
 
 export {
   airbnb,
+  wallpare,
   videoBg,
+  agirl,
   backFoneOne,
   backFoneTwo,
   glassFour,
@@ -65,4 +70,5 @@ export {
   people02,
   people03,
   vrGlassOne,
+  manVr,
 };
