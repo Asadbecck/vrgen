@@ -1,5 +1,5 @@
 import styles from './style'
-import { Navbar } from './components'
+import { Header, Navbar, Stats, Video, Business, EsiesCantrol, About, Footer, ItemsFooter } from './components'
 
 export default function App() {
   return (
@@ -13,23 +13,27 @@ export default function App() {
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-            Hero
+            <Header/>
         </div>
       </div>
 
-
-      
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-            Stats 
-            Business
-            CardDeal
-            Clients 
-            CTA
-            Footer
+            <Video/>
+            <Stats/>
+            <br />
+            <Business />
+            <br />
+            <EsiesCantrol/>
+            <br />
+            <About/>
+            <br />
+            <Footer/>
+            <br />
+            <ItemsFooter/>
+
         </div>
       </div>
-
     </div>
   )
 }

@@ -4,9 +4,9 @@ import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
-import quotes from "./quotes.svg";
-import robot from "./robot.png";
+import logo from "./main oq.png";
+import quotes from "./quotes.svg";  
+import robotHand from "./robot-hand-background-presenting-technology-gesture 1.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -23,9 +23,28 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import vrGlassOne from './vrGlassOne.png'
+import glassTwo from './glassTwo.png'
+import glassThree from './GlassThree.png'
+import glassFour from './glassFour.png'
+import backFoneOne from './backFon (1).png'
+import backFoneTwo from './backFon (2).png'
+import videoBg from './main_5-2 (1).mp4'
+import agirl from './agirl.png'
+import wallpare from './@OboiPC (2).jpg'
+import manVr from './video_image-pz30M4h4P.png'
+
 
 export {
   airbnb,
+  wallpare,
+  videoBg,
+  agirl,
+  backFoneOne,
+  backFoneTwo,
+  glassFour,
+  glassThree,
+  glassTwo,
   bill,
   binance,
   card,
@@ -33,7 +52,7 @@ export {
   dropbox,
   logo,
   quotes,
-  robot,
+  robotHand,
   send,
   shield,
   star,
@@ -50,4 +69,6 @@ export {
   people01,
   people02,
   people03,
+  vrGlassOne,
+  manVr,
 };
