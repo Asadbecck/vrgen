@@ -18,7 +18,6 @@ const Navbar = () => {
 
 
       <div className="flex flex-row-reverse space-x-4 space-x-reverse gap-7">
-
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
           {navLinks.map((nav, index) => (
             <li

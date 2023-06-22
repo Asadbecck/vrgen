@@ -1,6 +1,7 @@
 import styles from './style'
 import { Header, Navbar, Stats, Video, Business, EsiesCantrol, About, Footer, ItemsFooter } from './components'
 
+
 export default function App() {
   return (
     <div className='bg-primary w-full overflow-hidden'>

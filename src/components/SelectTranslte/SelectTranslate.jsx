@@ -9,7 +9,8 @@ export default function SelectTransla() {
     i18next.changeLanguage(language.target.value)
   }
   return (
-    <select onChange={changeLanguage} className='text-white bg-slate-900 font-poppins rounded-[10px] font-normal cursor-pointer text-[16px] px-[50px]' name="" id="1">
+
+    <select onChange={changeLanguage} className='text-white bg-primary font-poppins font-normal cursor-pointer text-[16px]' name="" id="1">
       {Transale.map((opt, i) => {
         return < React.Fragment key={i}>
           <option className='text-white bg-slate-900 ivide-slate-900' value={opt.value}>{t(opt.text)}</option>
